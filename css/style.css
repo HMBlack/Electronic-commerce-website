@@ -197,3 +197,12 @@ body { margin-bottom:30px; }
 .section .tab li { width:98px; }
 .side_section .tab { padding:0 6px; }
 .side_section .tab li { width:66px; }
+
+.list_section li {
+    height:27px; line-height:27px; border-top:1px dotted #dadada;
+    background:url(../img/dot.gif) no-repeat 5px center; vertical-align:middle;
+}
+.list_section li a { float:left; color:#333; text-indent:14px; }
+.list_section li a:hover { color:#d80000; }
+.list_section li a em { color:#c3c3c3; }
+.list_section li a span { color:#c75d61; }
