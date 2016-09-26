@@ -200,9 +200,79 @@ body { margin-bottom:30px; }
 
 .list_section li {
     height:27px; line-height:27px; border-top:1px dotted #dadada;
-    background:url(../img/dot.gif) no-repeat 5px center; vertical-align:middle;
+    background:url(../img/dot.gif) no-repeat 5px center;
 }
 .list_section li a { float:left; color:#333; text-indent:14px; }
 .list_section li a:hover { color:#d80000; }
 .list_section li a em { color:#c3c3c3; }
 .list_section li a span { color:#c75d61; }
+.list_section .col1, .list_section .col2, .list_section .col3 { float:left; }
+.list_section .col2, .list_section .col3 { text-align:center; }
+
+
+.list_section .title { background:none; color:#999; border-top:none; }
+.list_section .title .col1 { text-align:center; }
+.list_section .color { color:#d80000; }
+.side_section .col1 { width:137px; }
+.side_section .col2 { width:35px; }
+.side_section .col3 { width:36px; }
+.section .col1 { width:273px; }
+.section .col2 { width:35px; }
+.section .col2 img { position:relative; top:7px; }
+
+.pic_list li { overflow:hidden; }
+.pic_list .img { width:96px; height:73px; position:relative; }
+.pic_list .img a { display:block; width:90px; height:67px; padding:2px; border:1px solid #dadada; }
+.pic_list .img a:hover { border:1px solid #b80000; }
+.pic_list .text { width:108px; }
+.pic_list .text h3 { padding-bottom:4px; }
+.pic_list .text h3 a { color:#b80000; font-weight:normal; font-size:12px; }
+.pic_list .text h3 a:hover { text-decoration:underline; }
+.pic_list .text p { color:#999; }
+.pic_list .text p a { color:#666; }
+.pic_list .text p a:hover { color:#b80000; text-decoration:underline; }
+
+.wrap_section1 { padding-bottom:5px; }
+.wrap_section2 { padding-bottom:2px; }
+.wrap_section2 li {
+    width:214px; border-bottom:1px dotted #dadada; padding-bottom:10px; margin-bottom:10px; vertical-align:middle;
+}
+.wrap_section3 { padding-bottom:1px; background:#fff; }
+.wrap_section3 .pic_list { padding-bottom:10px; }
+.wrap_section3 .pic_list li { width:214px; vertical-align:middle; }
+.wrap_section4 { padding-bottom:10px; background:#fff; }
+.wrap_section4 .pic_list { overflow:hidden; }
+.wrap_section4 .pic_list li { float:left; width:107px; height:150px; }
+.wrap_section4 .pic_list h3 { padding-top:5px; }
+
+
+.soso { height:47px; border-top:1px dotted #dadada; padding:17px 0 0 10px; }
+.soso strong, .soso .text, .soso .btn { float:left; }
+.soso strong { color:#595959; padding-top:3px; }
+.soso .text { width:172px; height:20px; padding:0 4px; border:1px solid #9c9c9c; line-height:20px; color:#9c9c9c; }
+.soso .btn { width:24px; height:25px; background:url(../img/btn.gif); border:none; margin-left:10px; }
+
+
+.new_title {  height:70px; position:relative; background:url(../img/new_title_bg.gif) no-repeat right 0; }
+.new_title strong, .new_title span { position:absolute; left:24px; }
+.new_title strong { font-size:12px; font-family:arial; color:#ea2b31; top:19px; }
+.new_title span { font-size:24px; color:#333; top:31px; font-weight:normal; }
+.new_title em { font-size:36px; font-weight:bold; color:#ec1c16; position:absolute; left:125px; top:16px; }
+
+.activity { width:348px; float:left; }
+.recommend { width:348px; float:right; }
+.recommend .new_title { background-position:right -70px; }
+.activity, .recommend { height:498px; }
+
+.activity .con { background:url(../img/activity_bg.gif) no-repeat; }
+.activity .info { padding:16px 25px 0; height:104px; }
+.activity .img { float:left; width:84px; height:84px; position:relative; }
+.activity .mask { width:84px; height:84px; background:url(../img/activity_bg.gif) no-repeat -373px 0; position:absolute; top:0; left:0; }
+.activity .img img { width:84px; height:84px; }
+.activity .text { float:right; width:204px; }
+.activity .text h3 { height:32px; font-size:12px; }
+.activity .text em, .activity .text span { float:left; margin-right:4px; }
+.activity .text em { width:25px; height:25px; background:url(../img/activity_bg.gif) no-repeat -348px 0; font-family:arial; font-size:14px; color:#cf3530; text-align:center; line-height:25px; }
+.activity .text span { text-indent:2px; padding-top:4px; }
+.activity .text p { line-height:18px; color:#999; }
+
